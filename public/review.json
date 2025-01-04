@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "title": "Excellent Service",
+      "comment": "Home Repair Services did an amazing job fixing my roof! The team was professional, punctual, and delivered quality work. Highly recommend them!",
+      "photo": "https://i.ibb.co/gZb27td/360-F-364211147-1qg-LVxv1-Tcq0-Ohz3-Faw-Ufrt-ONzz8nq3e.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "title": "Highly Recommend!",
+      "comment": "They transformed my kitchen beautifully. Very skilled professionals and they left everything neat and tidy after the job. Will definitely hire again!",
+      "photo": "https://i.ibb.co/QNWNPrF/profile-picture-maker-before.webp"
+    },
+    {
+      "id": 3,
+      "name": "Samuel Green",
+      "title": "Fantastic Experience",
+      "comment": "The best repair service I've ever used. The team arrived on time, worked efficiently, and the quality was beyond expectations. I'm so pleased with the results!",
+      "photo": "https://i.ibb.co/xLYcQdH/user.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Emily White",
+      "title": "Great Work!",
+      "comment": "From start to finish, the entire process was smooth. The team was friendly, knowledgeable, and the repairs were done to perfection. I'm a happy customer!",
+      "photo": "https://i.ibb.co/qgFX59M/profile.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Michael Johnson",
+      "title": "Very Professional",
+      "comment": "Great experience with Home Repair Services! The technicians were professional and efficient. They completed the job ahead of schedule and cleaned up after themselves.",
+      "photo": "https://i.ibb.co/Ln9VhY1/images-1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Turner",
+      "title": "Impressive Results",
+      "comment": "I’m so happy with the repairs done to my bathroom. The service was top-notch, and the team was courteous and respectful. They really went above and beyond!",
+      "photo": "https://i.ibb.co/t8G7F5T/man-taking-selfie.jpg"
+    },
+    {
+      "id": 7,
+      "name": "David King",
+      "title": "Reliable and Trustworthy",
+      "comment": "I’ve used several repair services before, but this one stands out. They’re reliable, trust-worthy, and they get the job done right the first time. I’ll definitely call them again.",
+      "photo": "https://i.ibb.co/jVmzRBr/image.png"
+    },
+    {
+      "id": 8,
+      "name": "Olivia Brown",
+      "title": "Amazing Service",
+      "comment": "The Home Repair Services team fixed my plumbing issues quickly and efficiently. They were very professional, and the quality of their work exceeded my expectations.",
+      "photo": "https://i.ibb.co/vkx23ZN/image.png"
+    }
+  ]
+  
