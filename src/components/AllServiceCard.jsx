@@ -7,9 +7,12 @@ const AllServiceCard = ({service}) => {
     return (
 
     <div className='flex gap-5 flex-col sm:flex-row dark:bg-slate-700 bg-white p-5 rounded-lg'>
-        <div className=''>
-            <img src={photo} className='max-w-sm w-full lg:h-[230px] object-cover rounded-lg' alt="" />
-        </div>
+        <figure className='max-w-sm lg:h-[245px] w-full h-full'>
+    <img
+    className=' h-full w-full object-cover rounded-lg'
+      src={photo}
+      alt="Shoes" />
+  </figure>
         <div className='space-y-3 '>
             <h1 className='text-2xl dark:text-white text-secondary font-bold'>{name}</h1>
             <p className='text-xl font-semibold dark:text-white text-info'>{description.substring(0, 100)}...</p>
