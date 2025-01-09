@@ -4,6 +4,7 @@ import PopularServices from '../components/PopularServices';
 import AboutUs from '../components/AboutUs';
 import Review from '../components/Review';
 import { useLocation } from 'react-router-dom';
+import NewsLetter from '../components/NewsLetter';
 
 const Home = () => {
 
@@ -21,6 +22,7 @@ const Home = () => {
           <PopularServices></PopularServices>
           <AboutUs></AboutUs>
           <Review></Review>
+          <NewsLetter></NewsLetter>
         </div>
     );
 };

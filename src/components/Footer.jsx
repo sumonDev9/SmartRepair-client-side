@@ -12,7 +12,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className='bg-base-300 dark:bg-black dark:text-white'>
+    <div className='bg-base-300  dark:bg-black dark:text-white'>
       <footer className="footer footer-center  text-primary-content p-10">
         <aside  data-aos="fade-up">
           <img src="https://i.ibb.co/7tkTYc4/image-Photoroom-7.png" className='w-20' alt="" />
