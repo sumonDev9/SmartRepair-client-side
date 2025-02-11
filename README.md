@@ -1,12 +1,13 @@
 ## Projec name
 - SmartRepair Home Service Repair Platform
 
-## 🌐 Live Site URL
-- https://smart-repair-a41a9.web.app
-
 ## 📌 Project Overview
 
 Welcome to the **SmartRepair** – a platform designed to empower users to easily share and book services. Whether you're a service provider or a customer, this platform has everything you need to add, update, and browse services. The application features a sleek, responsive design and is built with modern technologies to ensure a great user experience.
+
+## 🌐 Live Site URL
+- https://smart-repair-a41a9.web.app
+
 
 ## ✨Key Features
 
