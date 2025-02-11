@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useContext, useEffect, useState } from 'react';
-import { FaLocationDot } from 'react-icons/fa6';
+import { FaIndianRupeeSign, FaLocationDot } from 'react-icons/fa6';
 import { ScrollRestoration, useLocation, useParams } from 'react-router-dom';
 import { AuthContext } from '../provider/Authprovider';
 import Swal from 'sweetalert2';
@@ -124,17 +124,17 @@ const ServiceDetails = () => {
                     <img src={photo} className=' w-full h-64 md:h-[500px] object-cover rounded-lg' alt="" />
                 </div>
                 <div className='space-y-3 '>
-                    <h1 className='text-2xl dark:text-white text-secondary font-bold'>{name}</h1>
-                    <p className='text-lg font-medium dark:text-white text-info'>{description}.</p>
+                    <h1 className='text-2xl dark:text-white text-secondary font-semibold'>{name}</h1>
+                    <p className='text-base font-medium dark:text-white text-info'>{description}.</p>
                     <div className='flex gap-10'>
-                        <h2 className='text-secondary dark:text-white font-semibold text-xl '>Price: <span className='text-lg dark:text-white text-info'>{price}</span></h2>
+                        <h2 className='text-secondary dark:text-white font-semibold flex items-center'><FaIndianRupeeSign /> <span className='text-lg dark:text-white text-info'>{price}</span></h2>
                     </div>
                     
                     <div className='flex gap-5 items-center'>
                         {serviceProvider && (
-                            <div className='flex gap-5 items-center'>
+                            <div className='flex gap-3 items-center'>
                                 <img src={serviceProvider.photo} className='w-10 rounded-full' alt={serviceProvider.name} />
-                                <h1 className='text-secondary dark:text-white font-bold text-xl'>{serviceProvider.name}</h1>
+                                <h1 className='text-secondary dark:text-white font-semibold text-2xl'>{serviceProvider.name}</h1>
                             </div>
                         )}
                     </div>
