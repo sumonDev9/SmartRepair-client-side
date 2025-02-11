@@ -17,13 +17,13 @@ const AllServiceCard = ({service}) => {
             <h1 className='text-2xl dark:text-white text-secondary font-bold'>{name}</h1>
             <p className='text-xl font-semibold dark:text-white text-info'>{description.substring(0, 100)}...</p>
             <div className='space-y-3'>
-                <div className='flex gap-5 items-center'>
+                <div className='flex gap-3 items-center'>
                     <img src={serviceProvider.photo} className='w-10 h-10 rounded-full' alt="" />
-                    <h1 className='text-secondary dark:text-white font-bold text-xl'>{serviceProvider.name}</h1>
+                    <h1 className='text-secondary dark:text-white font-bold text-2xl'>{serviceProvider.name}</h1>
                 </div>
                 <div className='flex gap-10'>
                     <h2 className='text-secondary dark:text-white font-semibold flex items-center '><FaIndianRupeeSign className='text-lg' /> <span className='text-lg dark:text-white text-info'>{price}</span></h2>
-                    <h2 className='flex items-center gap-2 dark:text-white text-xl text-info font-semibold'><FaLocationDot className='text-secondary dark:text-white' /> {area}</h2>
+                    <h2 className='flex items-center gap-1 dark:text-white text-info font-semibold'><FaLocationDot className='text-secondary dark:text-white' /> {area}</h2>
                 </div>
             </div>
             <Link to={`/services/${_id}`}>
