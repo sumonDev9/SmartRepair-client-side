@@ -22,6 +22,7 @@ const ManageService = () => {
   const [services, setServices] = useState([]);
   const [showModal, setShowModal] = useState(false);
   const [currentService, setCurrentService] = useState(null);
+  
   useEffect(() => {
     fetchAllService()
   }, [user]);

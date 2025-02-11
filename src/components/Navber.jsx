@@ -94,13 +94,13 @@ const Navber = () => {
                             </div>
                           </div>
                         </div>
-                        <button onClick={userLogout} className="px-1 py-1 md:px-3 md:py-2 font-semibold text-base md:text-lg rounded-md border-2  text-white hover:bg-white hover:text-black bg-transparent">Logout</button>
+                        <button onClick={userLogout} className="px-1 py-1 md:px-2 md:py-1 font-semibold text-base md:text-lg rounded-md border-2  text-white hover:bg-white hover:text-black bg-transparent">Logout</button>
       
                       </> : <>
-                        <Link to="/Login" className="px-1 py-1 md:px-3 md:py-2 font-semibold text-base md:text-lg rounded-md border-2  text-white hover:bg-white hover:text-black bg-transparent">
+                        <Link to="/Login" className="px-1 py-1 md:px-2 md:py-1 font-semibold text-base md:text-lg rounded-md border-2  text-white hover:bg-white hover:text-black bg-transparent">
                     Login
                     </Link>
-                    <Link to="/register" className="px-1 py-1 md:px-3 md:py-2 font-semibold text-base md:text-lg rounded-md border-2 hover:text-white bg-white text-black hover:bg-transparent">
+                    <Link to="/register" className="px-1 py-1 md:px-2 md:py-1 font-semibold text-base md:text-lg rounded-md border-2 hover:text-white bg-white text-black hover:bg-transparent">
                         Register
                     </Link>
                         </>
