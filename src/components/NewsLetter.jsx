@@ -5,7 +5,7 @@ const NewsLetter = () => {
  <section className='pb-10'>
            <div className="dark:bg-slate-700  w-11/12 mx-auto shadow-xl bg-white py-10 rounded-md text-white">
         <div className="max-w-5xl mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-secondary">Stay Updated with SmartRepair</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 dark:text-white text-secondary">Stay Updated with SmartRepair</h2>
           <p className="text-lg mb-6 dark:text-white text-info">
             Subscribe to our newsletter and receive the latest updates, exclusive repair offers, and tips to maintain your devices.
           </p>
