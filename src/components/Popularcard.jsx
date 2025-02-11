@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLocationDot } from 'react-icons/fa6';
+import { FaIndianRupeeSign, FaLocationDot } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
 const Popularcard = ({ service }) => {
@@ -18,7 +18,7 @@ const Popularcard = ({ service }) => {
                         <h1 className='text-secondary dark:text-white font-bold text-xl'>{serviceProvider.name}</h1>
                     </div>
                     <div className='flex gap-10'>
-                        <h2 className='text-secondary dark:text-white font-semibold text-lg '>Price: <span className='text-lg dark:text-white text-info'>{price}</span></h2>
+                        <h2 className='text-secondary dark:text-white font-semibold text-lg flex items-center'><FaIndianRupeeSign /> <span className='text-lg dark:text-white text-info'>{price}</span></h2>
                         <h2 className='flex items-center gap-2 dark:text-white text-lg text-info font-semibold'><FaLocationDot className='text-secondary dark:text-white' /> {area}</h2>
                     </div>
                     <Link to={`/services/${_id}`}>
