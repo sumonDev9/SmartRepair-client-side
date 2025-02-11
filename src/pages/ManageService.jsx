@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../provider/Authprovider';
 import axios from 'axios';
-import { FaLocationDot } from 'react-icons/fa6';
+import { FaIndianRupeeSign, FaLocationDot } from 'react-icons/fa6';
 import Swal from 'sweetalert2';
 import { useLocation } from 'react-router-dom';
 
@@ -129,7 +129,7 @@ const ManageService = () => {
                     <h1 className='text-secondary dark:text-white font-bold text-xl'>{service.serviceProvider.name}</h1>
                   </div>
                   <div className='flex gap-10'>
-                    <h2 className='text-secondary dark:text-white font-semibold text-lg '>Price: <span className='text-lg dark:text-white text-info'>{service.price}</span></h2>
+                    <h2 className='text-secondary dark:text-white font-semibold flex items-center text-lg '><FaIndianRupeeSign /> <span className='text-lg dark:text-white text-info'>{service.price}</span></h2>
                     <h2 className='flex items-center gap-2 dark:text-white text-lg text-info font-semibold'><FaLocationDot className='text-secondary dark:text-white' /> {service.area}</h2>
                   </div>
 
