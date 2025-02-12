@@ -13,13 +13,13 @@ const Popularcard = ({ service }) => {
                 <h1 className='text-secondary dark:text-white text-xl font-bold'>{name}</h1>
                 <p className='text-info my-3 dark:text-white'>{description.substring(0, 100)}...</p>
                 <div className='space-y-3'>
-                    <div className='flex gap-5 items-center'>
+                    <div className='flex gap-3 items-center'>
                         <img src={serviceProvider.photo} className='w-10 rounded-full' alt="" />
                         <h1 className='text-secondary dark:text-white font-bold text-xl'>{serviceProvider.name}</h1>
                     </div>
                     <div className='flex gap-10'>
                         <h2 className='text-secondary dark:text-white font-semibold text-lg flex items-center'><FaIndianRupeeSign /> <span className='text-lg dark:text-white text-info'>{price}</span></h2>
-                        <h2 className='flex items-center gap-2 dark:text-white text-lg text-info font-semibold'><FaLocationDot className='text-secondary dark:text-white' /> {area}</h2>
+                        <h2 className='flex items-center gap-1 dark:text-white text-lg text-info font-semibold'><FaLocationDot className='text-secondary dark:text-white' /> {area}</h2>
                     </div>
                     <Link to={`/services/${_id}`}>
                     <button className='text-white mt-2 bg-primary px-3 py-2 rounded-md font-semibold'  data-aos="fade-up">View Detail</button>
