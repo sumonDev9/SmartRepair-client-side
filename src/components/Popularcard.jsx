@@ -7,7 +7,7 @@ const Popularcard = ({ service }) => {
     return (
         <div className='flex flex-col lg:flex-row p-2 dark:bg-slate-700 bg-white rounded-lg gap-4'  data-aos="flip-left">
             <div>
-                <img src={photo} className='max-w-sm w-full lg:h-[230px] object-cover rounded-lg' alt={name} />
+                <img src={photo} className='lg:max-w-sm w-full lg:h-[230px] object-cover rounded-lg' alt={name} />
             </div>
             <div >
                 <h1 className='text-secondary dark:text-white text-xl font-bold'>{name}</h1>
