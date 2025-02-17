@@ -14,7 +14,7 @@ const AboutUs = () => {
 
     return (
         <div className=" dark:bg-slate-800 px-4 md:py-10">
-        <div className="max-w-7xl bg-white  mx-auto dark:bg-slate-700 p-4 rounded-md grid grid-cols-1 md:grid-cols-2 items-center gap-10 px-5"  data-aos="fade-up">
+        <div className="max-w-7xl bg-white  mx-auto dark:bg-slate-700 p-4 rounded-md grid grid-cols-1 lg:grid-cols-2 items-center gap-10 px-5"  data-aos="fade-up">
           {/* Left Content */}
           <div className="space-y-5"  data-aos="fade-right">
             <h2 className=" text-xl md:text-4xl font-bold text-primary">About Home Smart Repair Services</h2>
